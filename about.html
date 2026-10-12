@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tasty Bites | About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="container navbar">
+            <a class="logo" href="index.html">
+                <i class="fa-solid fa-utensils"></i> Tasty Bites
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a class="cart-link" href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-count">0</span>
+                </a>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <div class="container">
+                <h1>About Tasty Bites</h1>
+                <p>Good food, honest ingredients and a warm table for everyone.</p>
+            </div>
+        </section>
+
+        <!-- Our story -->
+        <section class="container section">
+            <div class="about-story">
+                <div class="about-icon">
+                    <img src="images/restro.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Our story</h2>
+                    <p>Tasty Bites started with a simple idea: serve the food people love, cooked fresh every day. From Chinese and Indian favourites to pizza, desserts and drinks, our menu has something for every mood and every family.</p>
+                    <p>We cook in small batches, buy vegetables from local markets and never compromise on taste.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values (nested list) -->
+        <section class="container section">
+            <h2 class="section-title">What we believe in</h2>
+            <ul class="values-list">
+                <li>
+                    <strong>Quality</strong>
+                    <ul>
+                        <li>Fresh vegetables every morning</li>
+                        <li>Spices ground in-house</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Hygiene</strong>
+                    <ul>
+                        <li>Clean open kitchen</li>
+                        <li>Staff trained in food safety</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Service</strong>
+                    <ul>
+                        <li>Friendly and quick</li>
+                        <li>Every guest treated like family</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- How we cook (ordered list) -->
+        <section class="container section">
+            <h2 class="section-title">How your food is made</h2>
+            <ol class="steps-list">
+                <li>You place your order.</li>
+                <li>Our chefs pick fresh ingredients.</li>
+                <li>Your dish is cooked to order.</li>
+                <li>It is checked and served hot.</li>
+            </ol>
+        </section>
+
+        <!-- Team (description list) -->
+        <section class="container section">
+            <h2 class="section-title">Our team</h2>
+            <dl class="team-list">
+                <dt>Founder</dt>
+                <dd>Plans the menu and welcomes every guest.</dd>
+
+                <dt>Head Chef</dt>
+                <dd>Leads the kitchen and creates our signature dishes.</dd>
+
+                <dt>Service Manager</dt>
+                <dd>Makes sure every table is looked after.</dd>
+            </dl>
+        </section>
+
+        <!-- Opening hours (table) -->
+        <section class="container section">
+            <h2 class="section-title">Opening hours</h2>
+            <table class="hours-table">
+                <caption>We are open every week</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Opens</th>
+                        <th>Closes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday – Friday</td>
+                        <td>11:00 AM</td>
+                        <td>10:30 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday – Sunday</td>
+                        <td>10:00 AM</td>
+                        <td>11:30 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Tasty Bites. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

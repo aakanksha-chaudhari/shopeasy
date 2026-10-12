@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tasty Bites | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="container navbar">
+            <a class="logo" href="index.html">
+                <i class="fa-solid fa-utensils"></i> Tasty Bites
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a class="cart-link" href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-count">0</span>
+                </a>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                            <div class="nav-actions">
+                <a class="cart-link" href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-count">0</span>
+                </a>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>Good food, made fresh every day</h1>
+                <p>From Chinese and Indian favourites to pizza, desserts and drinks. Explore our menu and order your favourites.</p>
+                <a class="btn" href="menu.html">View Menu</a>
+                <a class="btn btn-outline" href="contact.html">Book a Table</a>
+            </div>
+        </section>
+
+        <!-- Menu categories -->
+        <section class="container section">
+            <h2 class="section-title">Our menu categories</h2>
+            <div class="category-grid">
+                <a class="category-card" href="menu.html?category=Starters">
+                    <img src="images/cat-starters.jpg" alt="Starters">
+                    <h3>Starters</h3>
+                    <span class="category-link">View dishes <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <a class="category-card" href="menu.html?category=Chinese">
+                    <img src="images/cat-chinese.jpg" alt="Chinese food">
+                    <h3>Chinese</h3>
+                    <span class="category-link">View dishes <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <a class="category-card" href="menu.html?category=Indian">
+                    <img src="images/cat-indian.jpg" alt="Indian food">
+                    <h3>Indian</h3>
+                    <span class="category-link">View dishes <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <a class="category-card" href="menu.html?category=Pizza %26 Pasta">
+                    <img src="images/cat-pizza-pasta.jpg" alt="Pizza and pasta">
+                    <h3>Pizza &amp; Pasta</h3>
+                    <span class="category-link">View dishes <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <a class="category-card" href="menu.html?category=Desserts">
+                    <img src="images/cat-desserts.jpg" alt="Desserts">
+                    <h3>Desserts</h3>
+                    <span class="category-link">View dishes <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <a class="category-card" href="menu.html?category=Drinks">
+                    <img src="images/cat-drinks.jpg" alt="Drinks">
+                    <h3>Drinks</h3>
+                    <span class="category-link">View dishes <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Popular dishes -->
+        <section class="container section">
+            <h2 class="section-title">Popular dishes</h2>
+            <div class="dish-grid">
+                                <article class="dish-card">
+                    <div class="dish-image">
+                        <img src="images/veg-manchurian.jpg" alt="Veg Manchurian">
+                        <span class="dish-tag">Chinese</span>
+                    </div>
+                    <div class="dish-body">
+                        <h3>Veg Manchurian</h3>
+                        <p class="dish-desc">Crispy vegetable balls in a spicy garlic sauce.</p>
+                        <p class="price">₹180</p>
+                        <button class="add-btn" data-id="3" data-name="Veg Manchurian" data-price="180" data-image="images/veg-manchurian.jpg">Add to cart</button>
+                    </div>
+                </article>
+                <article class="dish-card">
+                    <div class="dish-image">
+                        <img src="images/paneer-butter-masala.jpg" alt="Paneer Butter Masala">
+                        <span class="dish-tag">Indian</span>
+                    </div>
+                    <div class="dish-body">
+                        <h3>Paneer Butter Masala</h3>
+                        <p class="dish-desc">Soft paneer in a rich, creamy tomato gravy.</p>
+                        <p class="price">₹260</p>
+                        <button class="add-btn" data-id="5" data-name="Paneer Butter Masala" data-price="260" data-image="images/paneer-butter-masala.jpg">Add to cart</button>
+                    </div>
+                </article>
+                <article class="dish-card">
+                    <div class="dish-image">
+                        <img src="images/margherita-pizza.jpg" alt="Margherita Pizza">
+                        <span class="dish-tag">Pizza &amp; Pasta</span>
+                    </div>
+                    <div class="dish-body">
+                        <h3>Margherita Pizza</h3>
+                        <p class="dish-desc">Classic cheese pizza with fresh basil.</p>
+                        <p class="price">₹299</p>
+                        <button class="add-btn" data-id="7" data-name="Margherita Pizza" data-price="299" data-image="images/margherita-pizza.jpg">Add to cart</button>
+                    </div>
+                </article>
+                <article class="dish-card">
+                    <div class="dish-image">
+                        <img src="images/chocolate-brownie.jpg" alt="Chocolate Brownie">
+                        <span class="dish-tag">Desserts</span>
+                    </div>
+                    <div class="dish-body">
+                        <h3>Chocolate Brownie</h3>
+                        <p class="dish-desc">Warm brownie served with chocolate sauce.</p>
+                        <p class="price">₹140</p>
+                        <button class="add-btn" data-id="9" data-name="Chocolate Brownie" data-price="140" data-image="images/chocolate-brownie.jpg">Add to cart</button>
+                    </div>
+                </article>
+                <article class="dish-card">
+                    <div class="dish-image">
+                        <img src="images/hakka-noodles.jpg" alt="Hakka Noodles">
+                        <span class="dish-tag">Chinese</span>
+                    </div>
+                    <div class="dish-body">
+                        <h3>Hakka Noodles</h3>
+                        <p class="dish-desc">Stir-fried noodles with fresh vegetables.</p>
+                        <p class="price">₹170</p>
+                        <button class="add-btn" data-id="4" data-name="Hakka Noodles" data-price="170" data-image="images/hakka-noodles.jpg">Add to cart</button>
+                    </div>
+                </article>
+                <article class="dish-card">
+                    <div class="dish-image">
+                        <img src="images/mango-lassi.jpg" alt="Mango Lassi">
+                        <span class="dish-tag">Drinks</span>
+                    </div>
+                    <div class="dish-body">
+                        <h3>Mango Lassi</h3>
+                        <p class="dish-desc">Chilled yogurt drink made with ripe mango.</p>
+                        <p class="price">₹110</p>
+                        <button class="add-btn" data-id="11" data-name="Mango Lassi" data-price="110" data-image="images/mango-lassi.jpg">Add to cart</button>
+                    </div>
+                </article>
+            </div>
+            <p class="center-link"><a class="btn" href="menu.html">See full menu</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Tasty Bites. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+           <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Paneer Tikka",
+        "category": "Starters",
+        "description": "Grilled paneer cubes marinated in spiced yogurt.",
+        "price": 220,
+        "image": "images/paneer-tikka.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Spring Rolls",
+        "category": "Starters",
+        "description": "Crispy rolls filled with vegetables, served with sauce.",
+        "price": 150,
+        "image": "images/spring-rolls.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Veg Manchurian",
+        "category": "Chinese",
+        "description": "Crispy vegetable balls in a spicy garlic sauce.",
+        "price": 180,
+        "image": "images/veg-manchurian.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Hakka Noodles",
+        "category": "Chinese",
+        "description": "Stir-fried noodles with fresh vegetables.",
+        "price": 170,
+        "image": "images/hakka-noodles.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Paneer Butter Masala",
+        "category": "Indian",
+        "description": "Soft paneer in a rich, creamy tomato gravy.",
+        "price": 260,
+        "image": "images/paneer-butter-masala.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dal Makhani",
+        "category": "Indian",
+        "description": "Slow-cooked black lentils with butter and cream.",
+        "price": 240,
+        "image": "images/dal-makhani.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Margherita Pizza",
+        "category": "Pizza & Pasta",
+        "description": "Classic cheese pizza with fresh basil.",
+        "price": 299,
+        "image": "images/margherita-pizza.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Penne Alfredo",
+        "category": "Pizza & Pasta",
+        "description": "Penne pasta in a creamy white sauce.",
+        "price": 280,
+        "image": "images/penne-alfredo.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Chocolate Brownie",
+        "category": "Desserts",
+        "description": "Warm brownie served with chocolate sauce.",
+        "price": 140,
+        "image": "images/chocolate-brownie.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Gulab Jamun",
+        "category": "Desserts",
+        "description": "Soft milk dumplings soaked in sugar syrup.",
+        "price": 90,
+        "image": "images/gulab-jamun.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Mango Lassi",
+        "category": "Drinks",
+        "description": "Chilled yogurt drink made with ripe mango.",
+        "price": 110,
+        "image": "images/mango-lassi.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Cold Coffee",
+        "category": "Drinks",
+        "description": "Iced coffee blended with milk and ice cream.",
+        "price": 130,
+        "image": "images/cold-coffee.jpg"
+    }
+]

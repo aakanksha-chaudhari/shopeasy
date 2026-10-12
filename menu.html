@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tasty Bites | Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="container navbar">
+            <a class="logo" href="index.html">
+                <i class="fa-solid fa-utensils"></i> Tasty Bites
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a class="cart-link" href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-count">0</span>
+                </a>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page banner -->
+        <section class="page-banner">
+            <div class="container">
+                <h1>Our Menu</h1>
+                <p>Choose a category and find your favourite dish.</p>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <section class="container section">
+
+            <!-- Category buttons (they will work in a later step) -->
+            <div class="filters">
+                <button class="filter-btn active" data-category="All">All</button>
+                <button class="filter-btn" data-category="Starters">Starters</button>
+                <button class="filter-btn" data-category="Chinese">Chinese</button>
+                <button class="filter-btn" data-category="Indian">Indian</button>
+                <button class="filter-btn" data-category="Pizza & Pasta">Pizza &amp; Pasta</button>
+                <button class="filter-btn" data-category="Desserts">Desserts</button>
+                <button class="filter-btn" data-category="Drinks">Drinks</button>
+            </div>
+
+                        <!-- Dish cards (created by JavaScript from menu.json) -->
+            <div class="dish-grid" id="menu-grid">
+                <p>Loading menu...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Tasty Bites. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+      
+    <script src="js/cart.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
